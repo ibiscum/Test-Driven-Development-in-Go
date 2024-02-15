@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/PacktPublishing/Test-Driven-Development-in-Go/chapter02/calculator"
-	"github.com/PacktPublishing/Test-Driven-Development-in-Go/chapter02/format"
+	"github.com/ibiscum/Test-Driven-Development-in-Go/chapter02/calculator"
+	"github.com/ibiscum/Test-Driven-Development-in-Go/chapter02/format"
 )
 
 const expressionLength = 3

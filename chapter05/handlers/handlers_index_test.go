@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"github.com/PacktPublishing/Test-Driven-Development-in-Go/chapter05/db"
-	"github.com/PacktPublishing/Test-Driven-Development-in-Go/chapter05/handlers"
 	"github.com/google/uuid"
+	"github.com/ibiscum/Test-Driven-Development-in-Go/chapter05/db"
+	"github.com/ibiscum/Test-Driven-Development-in-Go/chapter05/handlers"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )

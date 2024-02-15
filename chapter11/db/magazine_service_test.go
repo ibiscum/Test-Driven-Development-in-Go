@@ -5,9 +5,9 @@ import (
 	"log"
 	"testing"
 
-	"github.com/PacktPublishing/Test-Driven-Development-in-Go/chapter11/db"
-	"github.com/PacktPublishing/Test-Driven-Development-in-Go/chapter11/mocks"
 	"github.com/google/uuid"
+	"github.com/ibiscum/Test-Driven-Development-in-Go/chapter11/db"
+	"github.com/ibiscum/Test-Driven-Development-in-Go/chapter11/mocks"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"

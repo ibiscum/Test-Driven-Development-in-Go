@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/PacktPublishing/Test-Driven-Development-in-Go/chapter05/handlers"
+	"github.com/ibiscum/Test-Driven-Development-in-Go/chapter05/handlers"
 	"github.com/pact-foundation/pact-go/dsl"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

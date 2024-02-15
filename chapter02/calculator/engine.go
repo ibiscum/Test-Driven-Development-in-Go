@@ -3,7 +3,7 @@ package calculator
 import (
 	"fmt"
 
-	"github.com/PacktPublishing/Test-Driven-Development-in-Go/chapter02/format"
+	"github.com/ibiscum/Test-Driven-Development-in-Go/chapter02/format"
 )
 
 // Operation is the wrapper object that contains

@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/PacktPublishing/Test-Driven-Development-in-Go/chapter10/db"
-	"github.com/PacktPublishing/Test-Driven-Development-in-Go/chapter10/handlers"
 	"github.com/golang-migrate/migrate/v4"
 	_ "github.com/golang-migrate/migrate/v4/database/postgres"
 	_ "github.com/golang-migrate/migrate/v4/source/file"
+	"github.com/ibiscum/Test-Driven-Development-in-Go/chapter10/db"
+	"github.com/ibiscum/Test-Driven-Development-in-Go/chapter10/handlers"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

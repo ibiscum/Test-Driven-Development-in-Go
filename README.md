@@ -20,7 +20,7 @@ This book covers the following exciting features:
 
 If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1803247878) today!
 
-<!---<a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" alt="https://www.packtpub.com/" border="5" /></a> --->
+<!---<a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/ibiscum/GitHub/master/GitHub.png" alt="https://www.packtpub.com/" border="5" /></a> --->
 
 ## Instructions and Navigations
 All of the code is organized into folders. For example, Chapter02.
@@ -44,9 +44,9 @@ With the following software and hardware list you can run all code files present
 | 6-11 | Docker Desktop 4.17 | Windows, Mac OS X, and Linux (Any) |
 | (optional) | Postman 10  | Windows, Mac OS X, and Linux (Any) |
 
-For instructions on how to run code locally from Chapter01 to Chapter03, please refer to [RUN_CALCULATOR_LOCALLY.md](https://github.com/PacktPublishing/Test-Driven-Development-in-Go/blob/main/RUN_CALCULATOR_LOCALLY.md)
+For instructions on how to run code locally from Chapter01 to Chapter03, please refer to [RUN_CALCULATOR_LOCALLY.md](https://github.com/ibiscum/Test-Driven-Development-in-Go/blob/main/RUN_CALCULATOR_LOCALLY.md)
 
-For instructions on how to run code locally from Chapter04 onwards, please refer to [RUN_BOOKSWAP_LOCALLY.md](https://github.com/PacktPublishing/Test-Driven-Development-in-Go/blob/main/RUN_BOOKSWAP_LOCALLY.md)
+For instructions on how to run code locally from Chapter04 onwards, please refer to [RUN_BOOKSWAP_LOCALLY.md](https://github.com/ibiscum/Test-Driven-Development-in-Go/blob/main/RUN_BOOKSWAP_LOCALLY.md)
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://packt.link/KFZWx).
 

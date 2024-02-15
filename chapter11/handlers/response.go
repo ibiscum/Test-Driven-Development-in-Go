@@ -5,8 +5,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/PacktPublishing/Test-Driven-Development-in-Go/chapter11/db"
+	"github.com/ibiscum/Test-Driven-Development-in-Go/chapter11/db"
 )
+
 type ResponseItemType interface {
 	db.Book | db.Magazine
 }

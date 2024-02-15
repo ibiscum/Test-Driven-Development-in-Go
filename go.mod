@@ -1,4 +1,4 @@
-module github.com/PacktPublishing/Test-Driven-Development-in-Go
+module github.com/ibiscum/Test-Driven-Development-in-Go
 
 go 1.19
 

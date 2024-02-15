@@ -6,8 +6,8 @@ require (
 	github.com/cucumber/godog v0.12.5
 	github.com/google/uuid v1.3.0
 	github.com/gorilla/mux v1.8.0
-	github.com/pact-foundation/pact-go v1.7.0
-	github.com/stretchr/testify v1.8.0
+	github.com/pact-foundation/pact-go v1.8.0
+	github.com/stretchr/testify v1.8.1
 )
 
 require (
@@ -51,7 +51,7 @@ require (
 	github.com/onsi/ginkgo/v2 v2.15.0
 	github.com/onsi/gomega v1.31.1
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/stretchr/objx v0.4.0 // indirect
+	github.com/stretchr/objx v0.5.0 // indirect
 	golang.org/x/sys v0.15.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	gorm.io/driver/postgres v1.4.5

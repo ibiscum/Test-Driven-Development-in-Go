@@ -15,6 +15,7 @@ import (
 func TestGetBook(t *testing.T) {
 	testDB, cleaner := db.OpenDB(t)
 	defer cleaner()
+
 	t.Run("initial books", func(t *testing.T) {
 		bs := db.NewBookService(testDB, nil)
 		eb := bs.Upsert(db.Book{
@@ -57,10 +58,12 @@ func TestGetBook(t *testing.T) {
 func TestUpsertBook(t *testing.T) {
 	testDB, cleaner := db.OpenDB(t)
 	defer cleaner()
+
 	newBook := db.Book{
 		Name:    "New book",
 		OwnerID: uuid.New().String(),
 	}
+
 	t.Run("new book", func(t *testing.T) {
 		bs := db.NewBookService(testDB, nil)
 		b := bs.Upsert(newBook)

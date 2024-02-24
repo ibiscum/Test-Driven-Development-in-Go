@@ -16,6 +16,7 @@ import (
 )
 
 func main() {
+
 	port, ok := os.LookupEnv("BOOKSWAP_PORT")
 	if !ok {
 		log.Fatal("$BOOKSWAP_PORT not found")
@@ -24,7 +25,7 @@ func main() {
 	if !ok {
 		log.Fatal("$BOOKSWAP_DB_URL not found")
 	}
-	m, err := migrate.New("file://chapter06/db/migrations", postgresURL)
+	m, err := migrate.New("file://chapter06/db/migrations/", postgresURL)
 	if err != nil {
 		log.Fatalf("migrate:%v", err)
 	}

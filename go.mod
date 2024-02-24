@@ -55,6 +55,7 @@ require (
 	github.com/go-logr/logr v1.4.1 // indirect
 	github.com/golang-migrate/migrate/v4 v4.17.0
 	github.com/google/wire v0.6.0
+	github.com/joho/godotenv v1.5.1
 	github.com/onsi/ginkgo/v2 v2.15.0
 	github.com/onsi/gomega v1.31.1
 	github.com/pmezard/go-difflib v1.0.0 // indirect

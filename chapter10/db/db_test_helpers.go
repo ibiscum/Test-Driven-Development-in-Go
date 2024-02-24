@@ -31,15 +31,23 @@ func cleanUpDB(gdb *gorm.DB) func() {
 		id    string
 	}
 	var records []record
-	gdb.Callback().Create().After("gorm:create").Register(name, func(d *gorm.DB) {
+	err := gdb.Callback().Create().After("gorm:create").Register(name, func(d *gorm.DB) {
 		table := d.Statement.Schema.Table
 		model := reflect.ValueOf(d.Statement.Model)
 		id := reflect.Indirect(model).FieldByName("ID").String()
 		records = append(records, record{table: table, id: id})
 	})
+	if err != nil {
+		panic(err)
+	}
 
 	return func() {
-		defer gdb.Callback().Create().Remove(name)
+		defer func() {
+			err := gdb.Callback().Create().Remove(name)
+			if err != nil {
+				panic(err)
+			}
+		}()
 		log.Println(records)
 		tx := gdb.Begin()
 		for _, r := range records {

@@ -47,7 +47,7 @@ require (
 	github.com/golang-migrate/migrate/v4 v4.17.1
 	github.com/google/wire v0.6.0
 	github.com/onsi/ginkgo/v2 v2.17.2
-	github.com/onsi/gomega v1.33.0
+	github.com/onsi/gomega v1.33.1
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/stretchr/objx v0.5.2 // indirect
 	golang.org/x/sys v0.19.0 // indirect

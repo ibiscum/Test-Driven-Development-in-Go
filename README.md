@@ -1,5 +1,7 @@
 # Test-Driven Development in Go
 
+[![lint](https://github.com/ibiscum/Test-Driven-Development-in-Go/actions/workflows/lint.yml/badge.svg)](https://github.com/ibiscum/Test-Driven-Development-in-Go/actions/workflows/lint.yml)
+
 <a href="https://www.packtpub.com/product/test-driven-development-in-go/9781803247878"><img src="https://m.media-amazon.com/images/I/41oT4utXBhL._SX403_BO1,204,203,200_.jpg" alt="Test_Driven Development In Go" height="256px" align="right"></a>
 
 This is the code repository for [Test-Driven Development in Go](https://www.packtpub.com/product/test-driven-development-in-go/9781803247878), published by Packt.

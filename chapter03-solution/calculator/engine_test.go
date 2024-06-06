@@ -1,6 +1,7 @@
 package calculator_test
 
 import (
+	"log"
 	"testing"
 
 	"github.com/ibiscum/Test-Driven-Development-in-Go/chapter03-solution/calculator"
@@ -226,6 +227,9 @@ func BenchmarkAdd(b *testing.B) {
 
 	// run the Add function b.N times
 	for i := 0; i < b.N; i++ {
-		e.Add(2, 3)
+		_, err := e.Add(2, 3)
+		if err != nil {
+			log.Fatal(err)
+		}
 	}
 }

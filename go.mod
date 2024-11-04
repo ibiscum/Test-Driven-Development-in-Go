@@ -3,7 +3,7 @@ module github.com/ibiscum/Test-Driven-Development-in-Go
 go 1.19
 
 require (
-	github.com/cucumber/godog v0.14.1
+	github.com/cucumber/godog v0.15.0
 	github.com/google/uuid v1.6.0
 	github.com/gorilla/mux v1.8.1
 	github.com/pact-foundation/pact-go v1.10.0

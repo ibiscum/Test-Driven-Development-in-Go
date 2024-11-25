@@ -45,7 +45,7 @@ require (
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/golang-migrate/migrate/v4 v4.18.1
 	github.com/google/wire v0.6.0
-	github.com/onsi/ginkgo/v2 v2.21.0
+	github.com/onsi/ginkgo/v2 v2.22.0
 	github.com/onsi/gomega v1.34.2
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/stretchr/objx v0.5.2 // indirect

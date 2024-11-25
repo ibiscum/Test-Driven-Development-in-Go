@@ -51,7 +51,7 @@ func TestProcessExpression(t *testing.T) {
 		validator := mocks.NewValidationHelper(t)
 		parser := input.NewParser(engine, validator)
 		validator.On("CheckInput", operator, operands).
-			Return(fmt.Errorf(expectedErrMsg)).Once()
+			Return(fmt.Errorf("%v", expectedErrMsg)).Once()
 
 		// Act
 		result, err := parser.ProcessExpression(expr)
